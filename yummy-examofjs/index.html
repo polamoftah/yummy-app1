@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+   <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+   
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>yummy</title>
+</head>
+<body>
+
+<div class="loading-screen top-0 start-0 end-0 bottom-0 bg-black position-fixed  justify-content-center align-items-center ">
+    <i class="fa-solid fa-spinner fa-spin fa-5x"></i>
+</div>
+
+
+
+
+
+
+
+
+<div class="side-nav-menue min-vh-100 position-fixed p-4 d-flex ">
+    <div class="nav-tab d-flex flex-column justify-content-between min-vh-100">
+<div class="nav-links">
+<ul class="list overflow-hidden">
+    <li onclick="showsearchinput()" class="py-3 position-relative cursole-pointer">search</li>
+    <li  onclick="getCategory()" class="py-3 position-relative cursole-pointer">Categories</li>
+    <li  onclick="getarea()"class="py-3 position-relative cursole-pointer">Area</li>
+    <li  onclick="getIngredients()" class="py-3 position-relative cursole-pointer">Ingredients</li>
+    <li onclick="showContacts()" class="py-3 position-relative">Contact Us</li>
+</ul>
+</div>
+<div class="nav-footer">
+    <div class="icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+    </div>
+   <div class="footer">
+<p>Copyright Â© 2019 All Rights</p>
+<br>
+<p>Reserved.</p>
+   </div>
+
+</div>
+    </div>
+    <div class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+<img  class="logo" src="./images/logo.png" alt="">
+<i class="fa-solid open-close fa-align-justify fa-2x"></i>
+<div>
+    <i class="fa-solid fa-globe"></i>
+    <br>
+    <i class="fa-solid fa-share-nodes"></i>
+</div>
+    </div>
+</div>
+
+
+ <div class="container">
+    <div class="row py-4 g-4"  id="rowdata">
+      
+</div> 
+
+<div class="container w-75" id="searchcontainrer">
+   
+</div>
+
+<div class="container ">
+    <div class="row py-4 g-4"id="rowdata">
+       
+    </div>
+</div>
+
+
+
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+</html>
+ 

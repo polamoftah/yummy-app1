@@ -1,0 +1,43 @@
+body {
+    background-color: black !important;
+    color: white !important;
+    overflow: hidden;
+}
+.logo{
+    width: 50px;
+}
+i{
+    cursor: pointer;
+}
+.mael-layer {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.555);
+    top: 100%; /* Initially positioned below the image */
+    left: 0;
+    transition: top 0.3s ease; /* Smooth transition */
+}
+
+.mael:hover .mael-layer {
+    top: 0; /* Move to the visible area on hover */
+}
+
+.mael {
+    position: relative;
+    overflow: hidden;
+}
+.side-nav-menue{
+    z-index: 9999;
+
+}
+.cursole-pointer{
+    cursor: pointer;
+}
+.alert{
+    width: fit-content;
+}
+.loading-screen{
+   z-index: 9999; 
+  display: flex;
+}
